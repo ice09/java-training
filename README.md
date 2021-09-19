@@ -1,19 +1,19 @@
 # Java Training 
 
-Java Training is a series of exercises that will allow you to practice Java development. In the SEA, we will use these exercises for Dojos. You will have the possibility to automatically test the code of each exercise.
+Java Training is a series of exercises that will allow you to practice Java Fundamentals (datatypes, control flow and testing). In the SEA, we will use these exercises for Dojos. You will have the possibility to automatically test the code of each exercise.
 
 ## Objectives
 
 * Train the Java Fundamentals of the 3rd week
-* Test your code
-* Know how analyze errors by reading error logs and stacktraces
+* Develop and Run code and Tests in the IDE
+* Learn how analyze errors by reading error logs and stacktraces
 
-## Steps
+## Preparation
 
 * Clone this repository
 * Switch to branch *dojo-sea-fundamentals*
 
-### Setup of the project in your IDE
+### Verify the Setup of the Project in your IDE
 
 First step before starting the exercise: check that everything is in place to work.
 
@@ -38,17 +38,8 @@ In IntelliJ, you should see this project structure (in the "project" tab):
 
 ```
 
-## Preparation of the Dojo
+## Validation criteria
 
-### Envoie ta solution
-
-1. Créé un *fork* du dépôt 
-1. Modifie et teste ton code avec `./tester.sh Exercice`
-2. Quand ton code passe tous les tests, add/commit/push sur ton *fork*
-3. Partage ton dépôt *GitHub* en solution de la quête
-
-### Critères de validation
-
-* Le code se compile sans erreur
-* Le code passe toutes les validations attendues
-* Le code respecte les conventions de Java (indentation, nommage de variable, classe, méthodes, etc...)
+* The code compiles without errors
+* The code passes all the expected validations
+* The code respects the Java conventions (indentation, naming of variables, classes, methods, etc...)

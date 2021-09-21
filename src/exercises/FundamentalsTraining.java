@@ -5,6 +5,7 @@ public class FundamentalsTraining {
      * @return the same value, eg: 2
      */
     public static int sameValue(int value) {
+        System.out.println(value);
         return 0;
     }
 

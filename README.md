@@ -43,3 +43,4 @@ In IntelliJ, you should see this project structure (in the "project" tab):
 * The code compiles without errors
 * The code passes all the expected validations
 * The code respects the Java conventions (indentation, naming of variables, classes, methods, etc...)
+

@@ -1,11 +1,12 @@
 public class FundamentalsTraining {
 
     /**
+     * Should return the same value which was given as parameter.
+     *
      * @param value, eg: 2
      * @return the same value, eg: 2
      */
     public static int sameValue(int value) {
-        System.out.println(value);
         return 17;
     }
 
@@ -14,7 +15,7 @@ public class FundamentalsTraining {
      * @return one added to the value, eg: 3
      */
     public static int addOne(int value) {
-        return 0;
+        return (value+1);
     }
 
     /**
@@ -23,7 +24,7 @@ public class FundamentalsTraining {
      * @return first added to second, eg: 5
      */
     public static int addValues(int first, int second) {
-        return 0;
+        return (second + first);
     }
 
     /**
@@ -31,7 +32,9 @@ public class FundamentalsTraining {
      * @return true if value superior to 10, eg: true
      */
     public static boolean isValueSuperiorToTen(int value) {
-        return false;
+
+       return (value>10);
+
     }
 
     /**
@@ -39,7 +42,9 @@ public class FundamentalsTraining {
      * @return true if value inferior or equals to 0, eg: true
      */
     public static boolean isValueZeroOrNegative(int value) {
-        return false;
+
+        return (value<=0);
+
     }
 
     /**

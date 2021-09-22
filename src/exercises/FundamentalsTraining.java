@@ -6,7 +6,7 @@ public class FundamentalsTraining {
      */
     public static int sameValue(int value) {
         System.out.println(value);
-        return 0;
+        return 17;
     }
 
     /**
